@@ -1,10 +1,17 @@
 
 import styles from './page.module.css'
 
+import Maincomp from '@/component/maincomp/Maincomp'
+
 export default function Home() {
   return (
-    <main className={styles.main}>
-      My name is Jahid Hasan.
+    <main className={styles.main}>  
+    
+    <Maincomp/>
+    
+
+
+
     </main>
   )
 }
